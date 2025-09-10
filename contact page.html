@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact | Emperor's Domain</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #f5f5f5; color: #333; }
+    header, footer { background: #222; color: #fff; text-align: center; padding: 1.5rem; }
+    nav ul { list-style: none; display: flex; justify-content: center; gap: 2rem; padding: 0; margin: 1rem 0; }
+    nav a { color: #fff; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    main { padding: 2rem; max-width: 600px; margin: auto; line-height: 1.6; }
+    form { display: flex; flex-direction: column; gap: 1rem; }
+    input, textarea { padding: 0.75rem; border: 1px solid #ccc; border-radius: 5px; font-size: 1rem; }
+    button { padding: 0.75rem; background-color: #222; color: #fff; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; }
+    button:hover { background-color: #444; }
+    .info { margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>👑 Emperor's Domain</h1>
+    <nav>
+      <ul>
+        <li><a href="home page.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact page.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Contact the Emperor</h2>
+    <p>Whether you’ve got a tech question, a sibling-safe anime tip, or just want to say hello—drop me a message below.</p>
+
+    <form action="mailto:emperorsdomain7@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="info">
+      <p>📧 Direct Email: <strong>emperorsdomain7@gmail.com</strong></p>
+      <p>🌐 GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Emperor. All rights reserved.</p>
+  </footer>
+</body>
+</html>
